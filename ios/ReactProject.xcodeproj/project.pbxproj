@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* TareaToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TareaToDoTests.m */; };
+		00E356F31AD99517003FC87E /* ReactProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactProjectTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4FD7BD8BCAADF74F633ACCB9 /* libPods-TareaToDo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8BBFE128CE5DF385AFD997 /* libPods-TareaToDo.a */; };
-		65865516C9977B6947C8DF9A /* libPods-TareaToDo-TareaToDoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F889285C0717896A50E987B8 /* libPods-TareaToDo-TareaToDoTests.a */; };
+		588F2EC2C20064A9AB83C04E /* libPods-ReactProject-ReactProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4758E8788A2FA9B495C792A9 /* libPods-ReactProject-ReactProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		92D09E0311DD41430E4785A3 /* libPods-ReactProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F65B19719FFE3B5E8A4EB356 /* libPods-ReactProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = TareaToDo;
+			remoteInfo = ReactProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* TareaToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ReactProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* TareaToDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TareaToDoTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* TareaToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TareaToDo/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TareaToDo/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TareaToDo/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TareaToDo/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TareaToDo/main.m; sourceTree = "<group>"; };
-		415151F410EA1792329C780A /* Pods-TareaToDo-TareaToDoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareaToDo-TareaToDoTests.debug.xcconfig"; path = "Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		63761E8D825BEBEF0058729D /* Pods-TareaToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareaToDo.release.xcconfig"; path = "Target Support Files/Pods-TareaToDo/Pods-TareaToDo.release.xcconfig"; sourceTree = "<group>"; };
-		6A8BBFE128CE5DF385AFD997 /* libPods-TareaToDo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TareaToDo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TareaToDo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96CBDDFB1D4DE2E98785723E /* Pods-TareaToDo-TareaToDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareaToDo-TareaToDoTests.release.xcconfig"; path = "Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests.release.xcconfig"; sourceTree = "<group>"; };
-		9740176DBE5F699341AA617C /* Pods-TareaToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareaToDo.debug.xcconfig"; path = "Target Support Files/Pods-TareaToDo/Pods-TareaToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ReactProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactProjectTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ReactProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactProject/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactProject/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactProject/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactProject/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactProject/main.m; sourceTree = "<group>"; };
+		4758E8788A2FA9B495C792A9 /* libPods-ReactProject-ReactProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactProject-ReactProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C603B519AD3DB331A084318 /* Pods-ReactProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject.debug.xcconfig"; path = "Target Support Files/Pods-ReactProject/Pods-ReactProject.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		977C914B7BCB0C191CDC7FC9 /* Pods-ReactProject-ReactProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject-ReactProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA5EDAF1DF3AA4F7493862A /* Pods-ReactProject-ReactProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject-ReactProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F889285C0717896A50E987B8 /* libPods-TareaToDo-TareaToDoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TareaToDo-TareaToDoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58C45C9599434C1E0ED63E1 /* Pods-ReactProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject.release.xcconfig"; path = "Target Support Files/Pods-ReactProject/Pods-ReactProject.release.xcconfig"; sourceTree = "<group>"; };
+		F65B19719FFE3B5E8A4EB356 /* libPods-ReactProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65865516C9977B6947C8DF9A /* libPods-TareaToDo-TareaToDoTests.a in Frameworks */,
+				588F2EC2C20064A9AB83C04E /* libPods-ReactProject-ReactProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD7BD8BCAADF74F633ACCB9 /* libPods-TareaToDo.a in Frameworks */,
+				92D09E0311DD41430E4785A3 /* libPods-ReactProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* TareaToDoTests */ = {
+		00E356EF1AD99517003FC87E /* ReactProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* TareaToDoTests.m */,
+				00E356F21AD99517003FC87E /* ReactProjectTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = TareaToDoTests;
+			path = ReactProjectTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* TareaToDo */ = {
+		13B07FAE1A68108700A75B9A /* ReactProject */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,26 +93,26 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = TareaToDo;
+			name = ReactProject;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6A8BBFE128CE5DF385AFD997 /* libPods-TareaToDo.a */,
-				F889285C0717896A50E987B8 /* libPods-TareaToDo-TareaToDoTests.a */,
+				F65B19719FFE3B5E8A4EB356 /* libPods-ReactProject.a */,
+				4758E8788A2FA9B495C792A9 /* libPods-ReactProject-ReactProjectTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7044B4B0279D9D64C5A54473 /* Pods */ = {
+		6EE748BD9314FADDA9083748 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9740176DBE5F699341AA617C /* Pods-TareaToDo.debug.xcconfig */,
-				63761E8D825BEBEF0058729D /* Pods-TareaToDo.release.xcconfig */,
-				415151F410EA1792329C780A /* Pods-TareaToDo-TareaToDoTests.debug.xcconfig */,
-				96CBDDFB1D4DE2E98785723E /* Pods-TareaToDo-TareaToDoTests.release.xcconfig */,
+				7C603B519AD3DB331A084318 /* Pods-ReactProject.debug.xcconfig */,
+				F58C45C9599434C1E0ED63E1 /* Pods-ReactProject.release.xcconfig */,
+				977C914B7BCB0C191CDC7FC9 /* Pods-ReactProject-ReactProjectTests.debug.xcconfig */,
+				9AA5EDAF1DF3AA4F7493862A /* Pods-ReactProject-ReactProjectTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -128,12 +128,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* TareaToDo */,
+				13B07FAE1A68108700A75B9A /* ReactProject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* TareaToDoTests */,
+				00E356EF1AD99517003FC87E /* ReactProjectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				7044B4B0279D9D64C5A54473 /* Pods */,
+				6EE748BD9314FADDA9083748 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* TareaToDo.app */,
-				00E356EE1AD99517003FC87E /* TareaToDoTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ReactProject.app */,
+				00E356EE1AD99517003FC87E /* ReactProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,47 +152,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* TareaToDoTests */ = {
+		00E356ED1AD99517003FC87E /* ReactProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TareaToDoTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactProjectTests" */;
 			buildPhases = (
-				1CA5EC8FE7C2EDC9A1FF66B5 /* [CP] Check Pods Manifest.lock */,
+				B618D9B6757D379FC1AC83BD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				BB3E119589CF9141EC81D1AF /* [CP] Embed Pods Frameworks */,
-				BC2EF7C1E16238BFBF543148 /* [CP] Copy Pods Resources */,
+				107B26DFC6CC32C8E8AAC13B /* [CP] Embed Pods Frameworks */,
+				3E75A4CA8238423A42093E75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = TareaToDoTests;
-			productName = TareaToDoTests;
-			productReference = 00E356EE1AD99517003FC87E /* TareaToDoTests.xctest */;
+			name = ReactProjectTests;
+			productName = ReactProjectTests;
+			productReference = 00E356EE1AD99517003FC87E /* ReactProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* TareaToDo */ = {
+		13B07F861A680F5B00A75B9A /* ReactProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TareaToDo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactProject" */;
 			buildPhases = (
-				EDEDF9C2186E468F5BE167FA /* [CP] Check Pods Manifest.lock */,
+				7074C7F3B850C10F5A1B0D62 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2CA42FCB348589855E8C5E05 /* [CP] Embed Pods Frameworks */,
-				15A709FE204BB57E25A5EDD1 /* [CP] Copy Pods Resources */,
+				EBC15A5866DF7463CB8C315E /* [CP] Embed Pods Frameworks */,
+				ECC1E5AF9ABB3C41B1713020 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TareaToDo;
-			productName = TareaToDo;
-			productReference = 13B07F961A680F5B00A75B9A /* TareaToDo.app */;
+			name = ReactProject;
+			productName = ReactProject;
+			productReference = 13B07F961A680F5B00A75B9A /* ReactProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TareaToDo" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactProject" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* TareaToDo */,
-				00E356ED1AD99517003FC87E /* TareaToDoTests */,
+				13B07F861A680F5B00A75B9A /* ReactProject */,
+				00E356ED1AD99517003FC87E /* ReactProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,24 +265,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		15A709FE204BB57E25A5EDD1 /* [CP] Copy Pods Resources */ = {
+		107B26DFC6CC32C8E8AAC13B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo/Pods-TareaToDo-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo/Pods-TareaToDo-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TareaToDo/Pods-TareaToDo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1CA5EC8FE7C2EDC9A1FF66B5 /* [CP] Check Pods Manifest.lock */ = {
+		3E75A4CA8238423A42093E75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7074C7F3B850C10F5A1B0D62 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,65 +314,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TareaToDo-TareaToDoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2CA42FCB348589855E8C5E05 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo/Pods-TareaToDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo/Pods-TareaToDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TareaToDo/Pods-TareaToDo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB3E119589CF9141EC81D1AF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC2EF7C1E16238BFBF543148 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TareaToDo-TareaToDoTests/Pods-TareaToDo-TareaToDoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EDEDF9C2186E468F5BE167FA /* [CP] Check Pods Manifest.lock */ = {
+		B618D9B6757D379FC1AC83BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,11 +336,45 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TareaToDo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactProject-ReactProjectTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC15A5866DF7463CB8C315E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject/Pods-ReactProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject/Pods-ReactProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactProject/Pods-ReactProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC1E5AF9ABB3C41B1713020 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject/Pods-ReactProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactProject/Pods-ReactProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactProject/Pods-ReactProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* TareaToDoTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ReactProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* TareaToDo */;
+			target = 13B07F861A680F5B00A75B9A /* ReactProject */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 415151F410EA1792329C780A /* Pods-TareaToDo-TareaToDoTests.debug.xcconfig */;
+			baseConfigurationReference = 977C914B7BCB0C191CDC7FC9 /* Pods-ReactProject-ReactProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TareaToDoTests/Info.plist;
+				INFOPLIST_FILE = ReactProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TareaToDo.app/TareaToDo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactProject.app/ReactProject";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96CBDDFB1D4DE2E98785723E /* Pods-TareaToDo-TareaToDoTests.release.xcconfig */;
+			baseConfigurationReference = 9AA5EDAF1DF3AA4F7493862A /* Pods-ReactProject-ReactProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = TareaToDoTests/Info.plist;
+				INFOPLIST_FILE = ReactProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TareaToDo.app/TareaToDo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactProject.app/ReactProject";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9740176DBE5F699341AA617C /* Pods-TareaToDo.debug.xcconfig */;
+			baseConfigurationReference = 7C603B519AD3DB331A084318 /* Pods-ReactProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = TareaToDo/Info.plist;
+				INFOPLIST_FILE = ReactProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = TareaToDo;
+				PRODUCT_NAME = ReactProject;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63761E8D825BEBEF0058729D /* Pods-TareaToDo.release.xcconfig */;
+			baseConfigurationReference = F58C45C9599434C1E0ED63E1 /* Pods-ReactProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = TareaToDo/Info.plist;
+				INFOPLIST_FILE = ReactProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = TareaToDo;
+				PRODUCT_NAME = ReactProject;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TareaToDoTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TareaToDo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TareaToDo" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
